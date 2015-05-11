@@ -1,0 +1,24 @@
+{
+  "name": "fetch-bluebird",
+  "version": "0.0.0",
+  "description": "let fetch return bluebird promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undoZen/fetch-bluebird.git"
+  },
+  "keywords": [
+    "bluebird",
+    "promise",
+    "fetch"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/fetch-bluebird/issues"
+  },
+  "homepage": "https://github.com/undoZen/fetch-bluebird#readme"
+}
