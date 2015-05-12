@@ -1,6 +1,6 @@
 {
   "name": "fetch-bluebird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "patch polyfilled and native fetch to return bluebird promises",
   "main": "index.js",
   "files": [
