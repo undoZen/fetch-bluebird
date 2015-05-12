@@ -14,7 +14,7 @@ global.fetch = (function (f) {
     return function fetch(url) {
         return Promise.resolve(f.apply(this, arguments));
     };
-}(fetch);
+}(fetch));
 [global.Response, global.Request].forEach(function (obj) {
     if (obj && obj.prototype) {
         'arrayBuffer blob formData json text'.split(' ').forEach(function (method) {
