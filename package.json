@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/undoZen/fetch-bluebird/issues"
   },
-  "homepage": "https://github.com/undoZen/fetch-bluebird#readme"
+  "homepage": "https://github.com/undoZen/fetch-bluebird#readme",
+  "dependencies": {
+    "bluebird": "^2.9.25"
+  }
 }
