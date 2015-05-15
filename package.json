@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/undoZen/fetch-bluebird#readme",
   "peerDependencies": {
-    "bluebird": "*",
+    "bluebird": "^2",
     "fetch-polyfill": "*"
   },
   "dependencies": {
-    "bluebird": "^2.9.0",
-    "fetch-polyfill": "^0.8.1"
+    "bluebird": "^2",
+    "fetch-polyfill": "*"
   },
   "devDependencies": {
     "browserify": "^10.1.3",
