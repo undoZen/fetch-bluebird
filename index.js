@@ -1,3 +1,4 @@
+(function (global) {
 'use strict';
 var Promise = require('bluebird');
 if (!global.fetch) {
@@ -30,3 +31,4 @@ function transMethod(obj, method) {
         return Promise.resolve(origMethod.apply(this, arguments));
     };
 }
+}(typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {}));
